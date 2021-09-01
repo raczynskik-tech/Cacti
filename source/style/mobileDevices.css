@@ -1,0 +1,417 @@
+@media (max-width: 1023.9px){
+    header{
+        background-color: #383838;
+    }
+
+    /*Hamburger menu*/
+
+    #hamburgerMenuButton{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40px;
+        height: 40px;
+        margin: 0 25px 0 0;
+        padding: 5px;
+        border-radius: 2px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .line{
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        border-radius: 3px;
+        background-color: #fdfdfd;
+        transform-origin: center center;
+    }
+
+    .line:nth-child(2){
+        width: 60%;
+    }
+
+    #hamburgerMenuButton:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    nav{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 10;
+    }
+
+    nav > ul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding: 15px 0;
+        background-color: #383838;
+        border-radius: 0 0 10px 10px;
+    }
+
+    nav > ul > li{
+        position: relative;
+        display: inline-block;
+        line-height: 1.25em;
+        padding: 8px 7px 8px 7px;
+        border-radius: 2px;
+    }
+
+    nav > ul > li:hover{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    nav > ul > li > a{
+        font-size: 1.25em;
+        text-decoration: none;
+        font-weight: 400;
+        color: #fdfdfd;
+    }
+
+    /*Ogólny wygląd sekcji*/
+
+    article{
+        position: relative;
+        width: 100%;
+        padding: 0 6px 10px 6px;   
+    }
+
+    article > section{
+        position: relative;
+        width: 100%;
+        padding: 50px 25px 55px 25px;
+        margin: 11px 0 0 0;
+        border-radius: 10px;
+    }
+
+    section > h1{
+        padding: 0 0 0 10px;
+        border-left: 3px solid #7d887a;
+        text-transform: uppercase;
+        line-height: 1.15em;
+        color: #383838;
+        font-size: 3em;
+    }
+
+    section > p{
+        padding: 10px 100px 0 15px;
+        font-size: 1.25em;
+        color: #383838;
+    }
+
+    section > p:nth-child(3){
+        display: none;
+    }
+
+    section > a{
+        display: inline-block;
+        padding: 15px 15px;
+    }
+
+    section > a:nth-child(4){
+        display: none;
+    }
+
+    a > p{
+        padding: 5px 10px;
+        font-size: 1.15em;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #fdfdfd;
+        background-color: #383838;
+        text-transform: uppercase;
+    }
+
+    .sectionImages{
+        display: none;
+    }
+
+    /*Katalog*/
+
+    .productsContainers{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px 0 0 0;
+    }
+
+    .productsFigures{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 0 10px 0;
+    }
+
+    .productsImages{
+        width: 100%;
+        display: inline-block;
+        filter: contrast(1.2) saturate(1.5) brightness(0.95);
+        border: 5px solid rgba(125, 136, 122, 0.45);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 7px;
+    }
+
+    .productsDescriptions{
+        padding: 5px;
+        width: 100%;
+        text-align: center;
+        color: #383838;
+        font-size: 1.25em;
+    }
+
+    /*Inspiracje*/
+
+    .inspirationsContainers{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding: 5px 0;
+        margin: 0 0 20px 0;
+    }
+
+    .inspirationsContainers:nth-last-child(1){
+        margin: 0 0 0 0;
+    }
+
+    section > h2{
+        display: inline-block;
+        padding: 0 0 10px;
+        text-transform: none;
+        line-height: 1.15em;
+        color: #383838;
+        font-size: 2.5em;
+    }
+
+    .inspirationsDescriptions{
+        width: 100%;
+        margin: 0 0 20px;
+        font-size: 1.25em;
+        color: #383838;
+    }
+
+    /*Aktualności*/
+
+    #updateSection{
+        width: 100%;
+        background-color: #dadad2;
+        padding: 10px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .updateButtons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: 75px;
+        margin: 0 5px;
+        padding: 10px;
+        cursor: pointer;
+        color: #fdfdfd;
+        background-color: #e55e34;
+        border-radius: 5px;
+        line-height: 1.15em;
+        font-size: 1.25em;
+        border: none;
+    }
+
+    #updateDataBox{
+        min-height: 50vh;
+    }
+
+    .updateButtons:hover{
+        background-color: #b94a29;
+    }
+
+    /*Stopka*/
+
+    footer{
+        display: block;
+        padding: 10px 0;
+        background-color: #383838;
+        text-align: center;
+        color: #fdfdfd;
+        font-size: 1em;
+        font-weight: 400;
+        letter-spacing: 0.1em;
+    }
+}
+
+@media (max-width: 768px){
+    /*Katalog*/
+
+    .productsDescriptions{
+        font-size: 1em;
+    }
+
+    /*Aktualności*/
+
+    .updateButtons{
+        font-size: 1.25em;
+    }
+
+    /*Stopka*/
+
+    footer{
+        font-size: 0.75em;
+    }
+}
+
+@media (max-width: 480px){
+    /*Ogólny wygląd sekcji*/
+
+    article > section{
+        padding: 50px 25px 45px 25px;
+    }
+
+    section > h1{
+        font-size: 2em;
+    }
+
+    section > p{
+        padding: 10px 25px 0 15px;
+        font-size: 1em;
+    }
+
+    section > a{
+        padding: 10px 15px;
+    }
+
+    a > p{
+        font-size: 0.85em;
+    }
+
+    /*Katalog*/
+
+    .productsFigures{
+        width: 100%;
+    }
+
+    .productsImages{
+        width: 100%;
+    }
+
+    .productsDescriptions{
+        font-size: 0.85em;
+    } 
+
+    /*Inspiracje*/
+
+    section > h2{
+        font-size: 1.75em;
+    }
+    
+    .inspirationsContainers{
+        height: 175px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 0 25px 0;
+    }
+    
+    .inspirationsContainers:nth-last-child(1){
+        margin: 0;
+    }
+
+    .inspirationsDescriptions{
+        display: inline-block;
+        width: 100%;
+        height: 80%;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    
+        font-size: 0.95em;
+        color: #383838;
+    }
+
+    .inspirationsButtons{
+        border-radius: 5px;
+        padding: 5px 10px 5px 10px;
+        background-color: #e55e34;
+        border: none;
+        width: 100%;
+        color: #fdfdfd;
+        text-transform: uppercase;
+        font-weight: 400;
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        margin: 5px 0 0;
+        font-size: 1em;
+    }
+
+    .inspirationsButtons:hover{
+        background-color: #b64a2a;
+    }
+
+    .visible{
+        height: auto;
+    }
+
+    /*Aktualności*/
+
+    .updateButtons{
+        height: 80px;
+        font-size: 1em;
+    }
+
+    /*Stopka*/
+
+    footer{
+        padding: 5px 0;
+
+        font-size: 0.65em;
+    }
+}
+
+@media (max-width: 410px){
+    /*Aktualności*/
+
+    #updateSection{
+        flex-direction: column;
+    }
+
+    .updateButtons{
+        width: 100%;
+        height: 50px;
+        margin: 5px 0;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 300px){
+    /*Inspiracje*/
+
+    .inspirationsDescriptions{
+        margin: 0 0 10px;
+    }
+
+    .inspirationsButtons{
+        width: 100%;
+    }
+
+    .inspirationsContainers{
+        margin: 0 0 30px 0;
+    }
+}

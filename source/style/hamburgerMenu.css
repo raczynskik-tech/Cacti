@@ -1,0 +1,82 @@
+/*HAMBURGER MENU ANIMATIONS*/
+
+@keyframes animationUp{
+    from{
+        transform: translateY(0px) rotate(0deg);
+    }
+    to{
+        transform: translateY(-10px) rotate(-45deg);
+    }
+}
+@keyframes animationDown{
+    from{
+        transform: translateY(0px) rotate(0deg);
+    }
+    to{
+        transform: translateY(10px) rotate(45deg);
+    }
+}
+@keyframes animationUpR{
+    from{
+        transform: translateY(10px) rotate(-45deg);
+    }
+    to{
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+@keyframes animationDownR{
+    from{
+        transform: translateY(-10px) rotate(45deg);
+    }
+    to{
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+@keyframes animationHide{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes animationUnhide{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.line-hide{
+    animation: animationHide 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.line-unhide{
+    animation: animationUnhide 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.line-up{
+    animation: animationUp 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.line-down{
+    animation: animationDown 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.line-upR{
+    animation: animationUpR 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.line-downR{
+    animation: animationDownR 0.75s ease-in-out 0s 1 normal forwards;
+}
+
+.navVisible{
+    display: block;
+}
+
+.focusOut{
+    filter: blur(1px) brightness(0.75);
+}

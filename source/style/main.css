@@ -1,0 +1,90 @@
+/*
+##############################################
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Roboto', sans-serif;
+##############################################
+    ciemny szary: #383838
+    zielony szary: #7d887a
+    jasny zielony szary: #dadad2
+    biały: #fdfdfd
+    ciemny pomarańczowy: #e55e34
+##############################################
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    background-color: #7d887a;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+#logo{
+    margin: 5px 0 0 25px;
+    color: #fdfdfd;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+#hamburgerMenuButton{
+    display: none;
+}
+
+article > section:nth-child(1){
+    background-color: #fdfdfd;
+}
+
+article > section:nth-child(2){
+    background-color: #dadad2;
+}
+
+article > section:nth-child(3){
+    background-color: #fdfdfd;
+}
+
+article > section:nth-child(4){
+    background-color: #dadad2;
+}
+
+section > a{
+    text-align: center;
+}
+
+.headingAddOn{
+    color: #e55e34;
+}
+
+.inspirationsButtons{
+    display: none;
+}
+
+.sectionReturnBackButton{
+    display: none;
+}
+
+footer{
+    display: none;
+    width: 100%;
+    height: auto;
+}

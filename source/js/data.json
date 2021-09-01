@@ -1,0 +1,20 @@
+{
+    "data":[
+        {
+            "title": "Premiera nowego produktu",
+            "description": "Już niedługo odbędzie się premiera najnowszej serii firmy Cacti doniczek i osłonek do roślin pod nazwą ISOMARY SERIES z okazji dwulecia istnienia firmy na rynku. Nowa seria to połączenie bardzo znanych materiałów i dość prostej, jednak zaskakującej i prestiżowej formy. Wykorzystanie geometrycznego kształtu i nowej technologii szkliwienia, w którą wyposażono nasz produkt otrzymaliśmy solidną doniczkę charakteryzującą się wysoką użytecznością i starannością wykonania. Oczekuj na więcej wiadomości w sekcji aktualności na stronę firmy Cacti."
+        },
+        {
+            "title": "Nagroda",
+            "description": "Nasza firma została nagrodzona, wygrywając tym samym pierwsze miejsce w międzynarodowym konkursie florystycznym. Pracownicy reprezentujący nasza firmę zaprezentowali projekt futurystycznych osłonek do roślin umożliwiające monitorowanie parametrów gleby, jak i powietrza znajdującego się w przestrzeni rośliny. W przypadku problemów, osłona wyświetli odpowiedni komunikat w dedykowanej aplikacji. Póki co jest to tylko koncepcja, jednak jesteśmy przekonani, że projekt za pewien czas ujrzy światło dzienne."
+        },
+        {
+            "title": "Pracownik poszukiwany",
+            "description": "Informujemy, iż z faktem wzrostu zainteresowania produktami naszej firmy poszukujemy pracownika fizycznego do pracy w manufakturze Cacti. Osoby zainteresowane proszone są o kontakt pod adresem: job@cacti.com. Nie mamy szczególnych wymagań. Potrzebujemy pracowników, nawet takich, którzy nie mieli jeszcze do czynienia z podobną pracą. Oferujemy kursy i szkolenia, aby mieć możliwości dorównania doświadczeniem obecnym pracownikom. Czekamy na zgłoszenia!"
+        },
+        {
+            "title": "Start z rozmachem",
+            "description": "Rozpoczynamy naszą działalności od razu z premierą pierwszej serii naszych doniczek i osłonek – SQUARE SERIES. Zbudowane z betonu doniczki świetnie odnajdują się w nowoczesnych, jak i w nieco bardziej tradycyjnych mieszkaniach. Wykorzystanie drewna modrzewiowego (jako podstawki) nadało klasy betonowej bryle donicy w kształcie sześcianu. Szukaj na półkach sklepowych w marketach budowlanych, kwieciarniach i innych sklepach ogrodniczych."
+        }
+    ]
+}
